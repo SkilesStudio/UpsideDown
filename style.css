@@ -3,7 +3,10 @@
     padding: 0;
     background-color: magenta;
 }
-
+html {
+    height: 100%;
+}
 body {
     font-family: futura-pt, sans-serif;
+    height: 100%;
 }

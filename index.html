@@ -5,14 +5,34 @@
 		<title>Upside Down | About</title>
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="https://use.typekit.net/ccf3ozw.css">
-    </head>
-
-    <body>
-        <header>
-            <h1>Upside Down<h2>
-            <img src ="logo.png">
-        </header>
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        <!-- Bootstrap JS source -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+        <!-- CSS Animations -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <!-- Animate On Scroll source -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         
+        
+    </head>
+    <body>
+        <div class = "vh-100 d-flex align-items-center"> <!-- BS class vh-100 for full monitor height, align-items-center for vertical centering -->      
+            <h1>Upside Down</h1>
+            <div class="container w-100"> <!-- container to hold rows -->
+                <div class="row"> <!-- First row containing top image -->
+                    <div class="d-flex justify-content-center" data-aos = "fade-down" data-aos-duration="2000"> 
+                        <img src ="upside.png" style="max-width:60%">
+                    </div>
+                </div>
+                <hr>
+                <div class="row"> <!-- Second row containing bottom image -->
+                    <div class="d-flex justify-content-center" data-aos = "fade-up" data-aos-duration="2000">
+                        <img src ="down.png" style="max-width:60%">
+                    </div>
+                </div>
+            </div>
+        </div>
         <main>
             <h2>About the Project</h2>
             <p>
@@ -32,5 +52,11 @@
                 <br>Habitant morbi tristique senectus et netus et malesuada fames. Convallis convallis tellus id interdum velit. Nibh praesent tristique magna sit amet. Id neque aliquam vestibulum morbi blandit cursus risus. Consectetur lorem donec massa sapien faucibus et. Elementum facilisis leo vel fringilla est ullamcorper eget. Sit amet dictum sit amet justo donec enim diam. Lobortis elementum nibh tellus molestie nunc. Sed risus ultricies tristique nulla aliquet enim. Consectetur lorem donec massa sapien faucibus et molestie ac.
             </p>
         </main>
+
+        
+    <!-- Initialize AOS -->
+    <script>
+        AOS.init();
+    </script>
     </body>
 </html>
