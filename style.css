@@ -19,11 +19,17 @@ h1 {
     display: none;
 }
 
-main {
+#pageContents {
     background-image: url(background.jpg);
+    background-repeat:repeat;
+    padding-bottom: 2vh;
+}
+
+main {
     border-style: solid none none none;
     border-width: 1em;
     border-color: #d9bcaa;
+    
 }
 
 main p {
@@ -70,8 +76,29 @@ main h2 {
     margin: 0;
 }
   
-.navbar a:hover, .dropdown:hover .dropbtn {
+/* .navbar a:hover, .dropdown:hover .dropbtn {
     background-color: rgb(212, 145, 238);
+} */
+
+.navbar a:hover {
+    color: rgb(160, 158, 165);
+    background-color: transparent;
+
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.705) !important /* !important to overwrite bootstrap's built in card background settings */
+}
+#aboutContainer {
+    /* Keep height constant thru text changes */
+    min-height: 45vh;
+    max-height: 45vh;
+}
+.aboutBody {
+    font-size: 1.5em;
+    background-color: rgba(255, 255, 255, 0);
+    font-family: 'Abel', sans-serif;
+    cursor: pointer;
 }
   
 

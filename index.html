@@ -13,7 +13,13 @@
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <!-- Animate On Scroll source -->
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <!-- Anime.Js source -->
+        <script src="node_modules/animejs/lib/anime.min.js"></script>
         
+
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
     
 </head>
 
@@ -34,32 +40,119 @@
                 </div>
             </div>
         </div>
-        <div class="navbar">
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="bios.html">Bios</a>
-            <a href="projects.html">Project Examples</a>
-            </div>
-          <br><br>
-          
-        <main>
-            <h2>About the Project</h2>
-                <p>
-                Life before COVID had its ups and downs. When COVID hit it felt like everything in every direction was about to catch on fire, or already had. COVID radically reshaped livelihoods, the way we all did things, as well as perspectives, and the way we all viewed things. The fatalities of this era will forever be remembered and cherished for the passion, grace, joy and hope those souls brought to the people in their lives. 
+        
+        <div id = "pageContents">
+            <nav class="navbar navbar-expand-lg navbar-expand-sm"> <!-- responsive navbar for large and small screens -->
+                    <ul class="navbar-nav nav-fill w-100">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="bios.html">Bios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="projects.html">Project Examples</a>
+                        </li>
+                    </ul>
+            </nav>
+             
+              
+            <main>
+                <div class = "container-fluid">
+                    <div class="row">
+                        <div class="col-2"></div> <!-- empty column for spacing -->
+                        <div class="col" data-aos="flip-up" data-aos-duration="1000">
+                            <h2>About the Project</h2>
+                            <div class="card" id = "aboutCard">
+                                <div id = "aboutContainer" class="card-body d-flex align-items-center">
+                                    <p class="aboutBody" onclick="aboutChange(this)">
+                                        Life before COVID had its ups and downs. When COVID hit it felt like everything in every direction was about to catch on fire, or already had. COVID radically reshaped 
+                                        livelihoods, the way we all did things, as well as perspectives, and the way we all viewed things. The fatalities of this era will forever be remembered and cherished 
+                                        for the passion, grace, joy and hope those souls brought to the people in their lives. 
+                                    </p>
+                                    <p class="aboutBody" onclick="aboutChange(this)" style="display: none;">A catalog that displays the experiences and activities some of us had and shared through the pandemic allows us all to reflect on the experiences
+                                        we all cherish. Our catalog aims to unveil the silver-lining beneath the tragic effects of this era. By following students, experts, artists, 
+                                        histories, simple pleasures, and even entertainment, we’ll bring to light how us humans got along and got through. We’ve put together a variety of 
+                                        illustrations, reports, social perspectives, animations and more to capture the thoughts and feelings which convey this silver-lining. 
+                                        Life as it is understood by a diversity of individuals is both reflected on and enjoyed uniquely by all. </p>
+                                    
+                                    <p class="aboutBody" onclick="aboutChange(this)" style="display: none;">We hope that cataloging how it was positively experienced by some of us through the pandemic that we can bring awareness to the positive happenings. 
+                                        This catalog is not a communal venture to suppress or undermine the very serious tragedy of the pandemic, instead this is a communal effort to heal. 
+                                        By sharing beautiful visuals and perspectives, we hope to undo the some of the negatives effects the pandemic had on all of us. Just as the pandemic turned countless 
+                                        lives upside down, we want to retaliate, to try in as graceful a way we can to reverse what little or as much as we can, to in response to the pandemic turn the spirit 
+                                        of the virus upside down. 
+                                    </p>
+                                </div>
+                            </div>        
+                        </div>
+                        <div class="col-2"></div> <!-- empty column for spacing -->
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-2"></div> <!-- empty column for spacing -->
+                        <div class="col" data-aos="flip-up" data-aos-duration="1000">
+                            <h2>About Skiles Studio</h2>
+                            <div class="card" id = "aboutCard">
+                                <div id = "aboutContainer" class="card-body d-flex align-items-center">
+                                    <p class="aboutBody">  Skiles Studio exists as a collaboration of students from Professor Mark Leibert's LMC 3408: Graphic Design class at Georgia Tech. Each 
+                                        student brings their own skillset to supplement the project, and could choose between contributing to project management, editorial, branding, 
+                                        graphic design, motion design, or user interface of Upside Down. This semester, we chose to house our content on an Instagram account, which you 
+                                        can explore <a href="https://www.instagram.com/lmc3402/">online here</a>
+                                    </p>
+                                </div>
+                            </div>    
+                            
+                        </div>
+                        <div class="col-2"></div> <!-- empty column for spacing -->
+                    </div>
+                </div>
                 
-            	<br> <br>A catalog that displays the experiences and activities some of us had and shared through the pandemic allows us all to reflect on the experiences we all cherish. Our catalog aims to unveil the silver-lining beneath the tragic effects of this era. By following students, experts, artists, histories, simple pleasures, and even entertainment, we’ll bring to light how us humans got along and got through. We’ve put together a variety of illustrations, reports, social perspectives, animations and more to capture the thoughts and feelings which convey this silver-lining. Life as it is understood by a diversity of individuals is both reflected on and enjoyed uniquely by all. 
-            
-           	 <br><br><quote>We hope that cataloging how it was positively experienced by some of us through the pandemic that we can bring awareness to the positive happenings.</quote> This catalog is not a communal venture to suppress or undermine the very serious tragedy of the pandemic, instead this is a communal effort to heal. By sharing beautiful visuals and perspectives, we hope to undo the some of the negatives effects the pandemic had on all of us. Just as the pandemic turned countless lives upside down, we want to retaliate, to try in as graceful a way we can to reverse what little or as much as we can, to in response to the pandemic turn the spirit of the virus upside down. 
-		</p>
-            <h2>About Skiles Studio</h2>
-                <p>  Skiles Studio exists as a collaboration of students from Professor Mark Leibert's LMC 3408: Graphic Design class at Georgia Tech. Each student brings their own skillset to supplement the project, and could choose between contributing to project management, editorial, branding, graphic design, motion design, or user interface of Upside Down. This semester, we chose to house our content on an Instagram account, which you can explore <a href="https://www.instagram.com/lmc3402/">online here</a>
-                </p>
-        </main>
+                
+            </main>
+        </div>
+        
 
         
     <!-- Initialize AOS -->
     <script>
         AOS.init();
+    </script>
+
+    <script>
+        let aboutList = document.getElementById("aboutContainer").querySelectorAll(".aboutBody");
+        let aboutCard = document.getElementById("aboutCard");
+        let animation = [];
+        function aboutChange(element) {
+            for (var i = 0; i < aboutList.length; i++) { //loop thru about bodies and show as needed
+                if (element == aboutList[i]) {
+                    if (i == aboutList.length - 1) {
+                        doAnimation();
+                        element.style.display="none";
+                        aboutList[0].style.display = "block";
+                        
+                    } else {
+                        doAnimation();
+                        element.style.display="none";
+                        aboutList[i + 1].style.display = "block";
+                    }
+                }
+            }
+            
+        }
+        var ani = anime.timeline({});
+        function doAnimation() {
+            ani.add({
+                targets: aboutCard, 
+                easing: 'linear',
+                rotateX: 360,
+                duration: 500
+            });
+            ani.restart; //restart animation so it cycles on next click
+        }
+        
     </script>
     </body>
 </html>

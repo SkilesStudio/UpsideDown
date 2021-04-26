@@ -1,0 +1,22 @@
+{
+  "name": "upsidedown",
+  "version": "1.0.0",
+  "description": "LMC 3402 final project website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SkilesStudio/UpsideDown.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SkilesStudio/UpsideDown/issues"
+  },
+  "homepage": "https://github.com/SkilesStudio/UpsideDown#readme",
+  "dependencies": {
+    "animejs": "^3.2.1"
+  }
+}
