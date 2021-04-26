@@ -87,7 +87,7 @@ main h2 {
 }
 
 .card {
-    background-color: rgba(255, 255, 255, 0.705) !important /* !important to overwrite bootstrap's built in card background settings */
+    background-color: rgba(255, 255, 255, 0.705) !important; /* !important to overwrite bootstrap's built in card background settings */    
 }
 #aboutContainer {
     /* Keep height constant thru text changes */
