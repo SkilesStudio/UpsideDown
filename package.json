@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/SkilesStudio/UpsideDown/issues"
   },
-  "homepage": "https://github.com/SkilesStudio/UpsideDown#readme",
+  "homepage": "./skilesstudio.github.io/UpsideDown/",
   "dependencies": {
     "animejs": "^3.2.1"
   }
