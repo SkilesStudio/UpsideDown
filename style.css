@@ -53,6 +53,11 @@ main h2 {
     padding-top: 0px;
     overflow: hidden;
     background-color:rgb(215, 192, 224);
+    
+}
+
+.nav-link {
+    font-family: 'Abel', sans-serif !important;
 }
   
 .navbar a {
@@ -93,6 +98,7 @@ main h2 {
 
 .titleText {
     font-size: 4vw;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .card {
@@ -113,24 +119,35 @@ main h2 {
 .aboutBody {
     font-size: 1.5em;
     background-color: rgba(255, 255, 255, 0);
-    font-family: 'Abel', sans-serif;
+    font-family: 'Abel', sans-serif !important; 
     cursor: pointer;
 }
 .bioText {
     font-size: 1em;
     background-color: rgba(255, 255, 255, 0);
-    font-family: 'Abel', sans-serif;
+    font-family: 'Abel', sans-serif !important;
     margin: 0;
 }
 .bioCard {
     padding: 10px;
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 800px) { /* Specific mobile formatting cases */
     .card-img-top {
         height: 40vh;;
     }
     .aboutBody {
-        font-size: 3vw;
+        font-size: 3.5vw;
+        padding: 0;
+        margin: 0 auto
+    }
+    
+    .bioCard {
+        max-width: 80vw;
+        margin: 0 auto;
+    }
+
+    .titleText {
+        font-size: 8vw;
     }
 }
 

@@ -2,6 +2,7 @@
 <html>
 	<head>
         <meta charset="utf-8">
+        
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Upside Down | About</title>
         <!-- Icon -->
@@ -24,6 +25,8 @@
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
     
 </head>
 
@@ -46,7 +49,7 @@
         </div>
         
         <div id = "pageContents">
-            <div id="mainNavbar" class="nav navbar navbar-expand-lg navbar-expand-sm"> <!-- responsive navbar for large and small screens -->
+            <div id="mainNavbar" class="nav navbar navbar-expand"> <!-- responsive navbar for large and small screens -->
                     <ul class="navbar-nav nav-fill w-100">
                         <li class="nav-item active">
                             <a class="nav-link" href="index.html">Home</a>
@@ -57,9 +60,6 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#bios">Bios</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="projects.html">Project Examples</a>
-                        </li>
                     </ul>
             </div>
 
@@ -68,9 +68,9 @@
                 <!---------------------------------------------------------------------- ABOUT SKILES STUDIO------------------------------------------------------------- -->
                 <div id = "about" class = "container-fluid">
                     <div class="row">
-                        <div class="col-2"></div> <!-- empty column for spacing -->
-                        <div class="col" data-aos="flip-up" data-aos-duration="1000">
-                            <h3 class="titleText">About the Project</h3>
+                        <div class="col-md-2 col-sm-1"></div> <!-- empty column for spacing -->
+                        <div class="col-md-8 col-sm-10" data-aos="flip-up" data-aos-duration="1000">
+                            <h3 class="titleText pt-5">About the Project</h3>
                             <div class="card border" id = "aboutCard">
                                 <div id = "aboutContainer" class="card-body d-flex align-items-center">
                                     <p class="aboutBody" onclick="aboutChange(this)">
@@ -78,13 +78,13 @@
                                         livelihoods, the way we all did things, as well as perspectives, and the way we all viewed things. The fatalities of this era will forever be remembered and cherished 
                                         for the passion, grace, joy and hope those souls brought to the people in their lives. 
                                     </p>
-                                    <p class="aboutBody" onclick="aboutChange(this)" style="display: none;">A catalog that displays the experiences and activities some of us had and shared through the pandemic allows us all to reflect on the experiences
+                                    <p class="aboutBody bigParagraph" onclick="aboutChange(this)" style="display: none;">A catalog that displays the experiences and activities some of us had and shared through the pandemic allows us all to reflect on the experiences
                                         we all cherish. Our catalog aims to unveil the silver-lining beneath the tragic effects of this era. By following students, experts, artists, 
                                         histories, simple pleasures, and even entertainment, we’ll bring to light how us humans got along and got through. We’ve put together a variety of 
                                         illustrations, reports, social perspectives, animations and more to capture the thoughts and feelings which convey this silver-lining. 
                                         Life as it is understood by a diversity of individuals is both reflected on and enjoyed uniquely by all. </p>
                                     
-                                    <p class="aboutBody" onclick="aboutChange(this)" style="display: none;">We hope that cataloging how it was positively experienced by some of us through the pandemic that we can bring awareness to the positive happenings. 
+                                    <p class="aboutBody bigParagraph" onclick="aboutChange(this)" style="display: none;">We hope that cataloging how it was positively experienced by some of us through the pandemic that we can bring awareness to the positive happenings. 
                                         This catalog is not a communal venture to suppress or undermine the very serious tragedy of the pandemic, instead this is a communal effort to heal. 
                                         By sharing beautiful visuals and perspectives, we hope to undo the some of the negatives effects the pandemic had on all of us. Just as the pandemic turned countless 
                                         lives upside down, we want to retaliate, to try in as graceful a way we can to reverse what little or as much as we can, to in response to the pandemic turn the spirit 
@@ -93,13 +93,13 @@
                                 </div>
                             </div>        
                         </div>
-                        <div class="col-2"></div> <!-- empty column for spacing -->
+                        <div class="col-md-2 col-sm-1"></div> <!-- empty column for spacing -->
                     </div>
                     
                     <div class="row">
-                        <div class="col-2"></div> <!-- empty column for spacing -->
-                        <div class="col" data-aos="flip-up" data-aos-duration="1000">
-                            <h3 class="titleText">About Skiles Studio</h3>
+                        <div class="col-md-2 col-sm-1"></div> <!-- empty column for spacing -->
+                        <div class="col-md-8 col-sm-10" data-aos="flip-up" data-aos-duration="1000">
+                            <h3 class="titleText py-4">About Skiles Studio</h3>
                             <div class="card" id = "aboutCard">
                                 <div id = "aboutContainer" class="card-body d-flex align-items-center">
                                     <p class="aboutBody">  Skiles Studio exists as a collaboration of students from Professor Mark Leibert's LMC 3408: Graphic Design class at Georgia Tech. Each 
@@ -111,18 +111,18 @@
                             </div>    
                             
                         </div>
-                        <div class="col-2"></div> <!-- empty column for spacing -->
+                        <div class="col-md-2 col-sm-1"></div> <!-- empty column for spacing -->
                     </div>
                 </div>
                 <!-- --------------------------------------------------------------------------------BIOS------------------------------------------------------------ -->
                 <div id="bios" class="container">
                     <div class="row" style="height: 10%; padding: 10px;">
                         <div class="col my-auto">
-                            <h3 class="titleText">Meet the Contributors</h3>
+                            <h3 class="titleText pt-5">Meet the Contributors</h3>
                         </div>
                     </div>
                     <div class="row py-3">
-                        <div class="col-md-3">
+                        <div class="col-md-3 py-3">
                             <div class="card bioCard h-100">
                                 <img class="card-img-top"src = "bioPics/blank.png">
                                 <h3>
@@ -135,7 +135,7 @@
     
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 py-3">
                             <div class="card bioCard h-100">
                                 <img class="card-img-top"src = "bioPics/blank.png">
                                 <h3>
@@ -147,8 +147,8 @@
                                 <a href="instagram.com">Project Link</a>
     
                             </div>
-                        </div>
-                        <div class="col-md-3">
+                        </div> 
+                        <div class="col-md-3 py-3">
                             <div class="card bioCard h-100">
                                 <img class="card-img-top"src = "bioPics/blank.png">
                                 <h3>
@@ -161,7 +161,7 @@
     
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 py-3">
                             <div class="card bioCard h-100">
                                 <img class="card-img-top"src = "bioPics/blank.png">
                                 <h3>
@@ -176,7 +176,7 @@
                         </div>
                     </div>
                     <div class="row py-3">
-                        <div class="col-md-3">
+                        <div class="col-md-3 py-3">
                             <div class="card bioCard h-100">
                                 <img class="card-img-top"src = "bioPics/blank.png">
                                 <h3>
@@ -189,7 +189,7 @@
     
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 py-3">
                             <div class="card bioCard h-100">
                                 <img class="card-img-top"src = "bioPics/blank.png">
                                 <h3>
@@ -202,7 +202,7 @@
     
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 py-3">
                             <div class="card bioCard h-100">
                                 <img class="card-img-top"src = "bioPics/blank.png">
                                 <h3>
@@ -215,7 +215,7 @@
     
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 py-3">
                             <div class="card bioCard h-100">
                                 <img class="card-img-top"src = "bioPics/blank.png">
                                 <h3>
@@ -230,7 +230,7 @@
                         </div>
                     </div>
                     <div class="row py-3">
-                        <div class="col-md-3">
+                        <div class="col-md-3 py-3">
                             <div class="card bioCard h-100">
                                 <img class="card-img-top"src = "bioPics/blank.png">
                                 <h3>
@@ -243,7 +243,7 @@
     
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 py-3">
                             <div class="card bioCard h-100">
                                 <img class="card-img-top"src = "bioPics/blank.png">
                                 <h3>
@@ -256,7 +256,7 @@
     
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 py-3">
                             <div class="card bioCard h-100">
                                 <img class="card-img-top"src = "bioPics/blank.png">
                                 <h3>
@@ -269,7 +269,7 @@
     
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 py-3">
                             <div class="card bioCard h-100">
                                 <img class="card-img-top"src = "bioPics/blank.png">
                                 <h3>
@@ -284,7 +284,7 @@
                         </div>
                     </div>
                     <div class="row py-3">
-                        <div class="col-md-3">
+                        <div class="col-md-3 py-3">
                             <div class="card bioCard h-100">
                                 <img class="card-img-top"src = "bioPics/blank.png">
                                 <h3>
@@ -297,7 +297,7 @@
     
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 py-3">
                             <div class="card bioCard h-100">
                                 <img class="card-img-top"src = "bioPics/blank.png">
                                 <h3>
@@ -310,7 +310,7 @@
     
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 py-3">
                             <div class="card bioCard h-100">
                                 <img class="card-img-top"src = "bioPics/blank.png">
                                 <h3>
@@ -323,7 +323,61 @@
     
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <!-- <div class="col-md-3 py-3">
+                            <div class="card bioCard h-100">
+                                <img class="card-img-top"src = "bioPics/blank.png">
+                                <h3>
+                                    Name mcName
+                                </h3>
+                                <p class="bioText">
+                                    Hey, my name is Name!
+                                </p>
+                                <a href="instagram.com">Project Link</a>
+    
+                            </div>
+                        </div> -->
+                    </div>
+                    <!-- <div class="row py-3">
+                        <div class="col-md-3 py-3">
+                            <div class="card bioCard h-100">
+                                <img class="card-img-top"src = "bioPics/blank.png">
+                                <h3>
+                                    Name mcName
+                                </h3>
+                                <p class="bioText">
+                                    Hey, my name is Name!
+                                </p>
+                                <a href="instagram.com">Project Link</a>
+    
+                            </div>
+                        </div>
+                        <div class="col-md-3 py-3">
+                            <div class="card bioCard h-100">
+                                <img class="card-img-top"src = "bioPics/blank.png">
+                                <h3>
+                                    Name mcName
+                                </h3>
+                                <p class="bioText">
+                                    Hey, my name is Name!
+                                </p>
+                                <a href="instagram.com">Project Link</a>
+    
+                            </div>
+                        </div>
+                        <div class="col-md-3 py-3">
+                            <div class="card bioCard h-100">
+                                <img class="card-img-top"src = "bioPics/blank.png">
+                                <h3>
+                                    Name mcName
+                                </h3>
+                                <p class="bioText">
+                                    Hey, my name is Name!
+                                </p>
+                                <a href="instagram.com">Project Link</a>
+    
+                            </div>
+                        </div>
+                        <div class="col-md-3 py-3">
                             <div class="card bioCard h-100">
                                 <img class="card-img-top"src = "bioPics/blank.png">
                                 <h3>
@@ -338,7 +392,7 @@
                         </div>
                     </div>
                     <div class="row py-3">
-                        <div class="col-md-3">
+                        <div class="col-md-3 py-3">
                             <div class="card bioCard h-100">
                                 <img class="card-img-top"src = "bioPics/blank.png">
                                 <h3>
@@ -351,7 +405,7 @@
     
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 py-3">
                             <div class="card bioCard h-100">
                                 <img class="card-img-top"src = "bioPics/blank.png">
                                 <h3>
@@ -364,7 +418,7 @@
     
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 py-3">
                             <div class="card bioCard h-100">
                                 <img class="card-img-top"src = "bioPics/blank.png">
                                 <h3>
@@ -377,7 +431,7 @@
     
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 py-3">
                             <div class="card bioCard h-100">
                                 <img class="card-img-top"src = "bioPics/blank.png">
                                 <h3>
@@ -390,61 +444,7 @@
     
                             </div>
                         </div>
-                    </div>
-                    <div class="row py-3">
-                        <div class="col-md-3">
-                            <div class="card bioCard h-100">
-                                <img class="card-img-top"src = "bioPics/blank.png">
-                                <h3>
-                                    Name mcName
-                                </h3>
-                                <p class="bioText">
-                                    Hey, my name is Name!
-                                </p>
-                                <a href="instagram.com">Project Link</a>
-    
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="card bioCard h-100">
-                                <img class="card-img-top"src = "bioPics/blank.png">
-                                <h3>
-                                    Name mcName
-                                </h3>
-                                <p class="bioText">
-                                    Hey, my name is Name!
-                                </p>
-                                <a href="instagram.com">Project Link</a>
-    
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="card bioCard h-100">
-                                <img class="card-img-top"src = "bioPics/blank.png">
-                                <h3>
-                                    Name mcName
-                                </h3>
-                                <p class="bioText">
-                                    Hey, my name is Name!
-                                </p>
-                                <a href="instagram.com">Project Link</a>
-    
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="card bioCard h-100">
-                                <img class="card-img-top"src = "bioPics/blank.png">
-                                <h3>
-                                    Name mcName
-                                </h3>
-                                <p class="bioText">
-                                    Hey, my name is Name!
-                                </p>
-                                <a href="instagram.com">Project Link</a>
-    
-                            </div>
-                        </div>
-                    </div>
+                    </div> -->
                     
                 </div>
                 
